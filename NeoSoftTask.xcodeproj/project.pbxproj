@@ -1,0 +1,908 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F244B8A3433A95A832A2DCF /* Pods_NeoSoftTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 881A2CBB2C093FC8B3359EE7 /* Pods_NeoSoftTask.framework */; };
+		5A6FCBC099CCB9932ED2CACC /* Pods_NeoSoftTask_NeoSoftTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B26C3517A26FE580169F55 /* Pods_NeoSoftTask_NeoSoftTaskUITests.framework */; };
+		CC2FEE5AFDCAF7001A68C1A9 /* Pods_NeoSoftTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A946F18E2FB893141D0DF5F /* Pods_NeoSoftTaskTests.framework */; };
+		E036D46B2DA6F26900D4F5FF /* BottomSheetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E036D46A2DA6F26900D4F5FF /* BottomSheetVC.swift */; };
+		E04900062DA6C4060085D27F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04900052DA6C4060085D27F /* AppDelegate.swift */; };
+		E04900082DA6C4060085D27F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04900072DA6C4060085D27F /* SceneDelegate.swift */; };
+		E049000A2DA6C4060085D27F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04900092DA6C4060085D27F /* ViewController.swift */; };
+		E049000D2DA6C4060085D27F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E049000C2DA6C4060085D27F /* Base */; };
+		E049000F2DA6C4140085D27F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E049000E2DA6C4140085D27F /* Assets.xcassets */; };
+		E04900122DA6C4140085D27F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E04900112DA6C4140085D27F /* Base */; };
+		E049001D2DA6C4140085D27F /* NeoSoftTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E049001C2DA6C4140085D27F /* NeoSoftTaskTests.swift */; };
+		E04900272DA6C4140085D27F /* NeoSoftTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04900262DA6C4140085D27F /* NeoSoftTaskUITests.swift */; };
+		E04900292DA6C4140085D27F /* NeoSoftTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04900282DA6C4140085D27F /* NeoSoftTaskUITestsLaunchTests.swift */; };
+		E049003D2DA6C9370085D27F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E049003C2DA6C9370085D27F /* BaseViewController.swift */; };
+		E049003F2DA6C94C0085D27F /* SuperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E049003E2DA6C94C0085D27F /* SuperViewController.swift */; };
+		E04900422DA6CA270085D27F /* DashBoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04900412DA6CA270085D27F /* DashBoardVC.swift */; };
+		E04900482DA6CAA70085D27F /* TabelCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04900472DA6CAA70085D27F /* TabelCells.swift */; };
+		E049004A2DA6CB510085D27F /* CollCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04900492DA6CB510085D27F /* CollCells.swift */; };
+		E049004C2DA6CE280085D27F /* Uiview+controls.swift in Sources */ = {isa = PBXBuildFile; fileRef = E049004B2DA6CE280085D27F /* Uiview+controls.swift */; };
+		E049004F2DA6CEA10085D27F /* DashBoardItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E049004E2DA6CEA10085D27F /* DashBoardItemModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E04900192DA6C4140085D27F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E049FFFA2DA6C4060085D27F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E04900012DA6C4060085D27F;
+			remoteInfo = NeoSoftTask;
+		};
+		E04900232DA6C4140085D27F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E049FFFA2DA6C4060085D27F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E04900012DA6C4060085D27F;
+			remoteInfo = NeoSoftTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1889408E54AB2B294B3FB422 /* Pods-NeoSoftTask-NeoSoftTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoSoftTask-NeoSoftTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-NeoSoftTask-NeoSoftTaskUITests/Pods-NeoSoftTask-NeoSoftTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1C25E94F352BBB2714202BB9 /* Pods-NeoSoftTask-NeoSoftTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoSoftTask-NeoSoftTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-NeoSoftTask-NeoSoftTaskUITests/Pods-NeoSoftTask-NeoSoftTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3BAEA2AE94EE85A916823595 /* Pods-NeoSoftTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoSoftTaskTests.release.xcconfig"; path = "Target Support Files/Pods-NeoSoftTaskTests/Pods-NeoSoftTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		5A946F18E2FB893141D0DF5F /* Pods_NeoSoftTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeoSoftTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B26C3517A26FE580169F55 /* Pods_NeoSoftTask_NeoSoftTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeoSoftTask_NeoSoftTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C11A535862E3F75307A215 /* Pods-NeoSoftTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoSoftTask.debug.xcconfig"; path = "Target Support Files/Pods-NeoSoftTask/Pods-NeoSoftTask.debug.xcconfig"; sourceTree = "<group>"; };
+		881A2CBB2C093FC8B3359EE7 /* Pods_NeoSoftTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeoSoftTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B242CA16591F660F279E0C28 /* Pods-NeoSoftTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoSoftTask.release.xcconfig"; path = "Target Support Files/Pods-NeoSoftTask/Pods-NeoSoftTask.release.xcconfig"; sourceTree = "<group>"; };
+		B48C10CF3FAAC02FF80C8A6F /* Pods-NeoSoftTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoSoftTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-NeoSoftTaskTests/Pods-NeoSoftTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E036D46A2DA6F26900D4F5FF /* BottomSheetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetVC.swift; sourceTree = "<group>"; };
+		E04900022DA6C4060085D27F /* NeoSoftTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeoSoftTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E04900052DA6C4060085D27F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E04900072DA6C4060085D27F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E04900092DA6C4060085D27F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E049000C2DA6C4060085D27F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E049000E2DA6C4140085D27F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E04900112DA6C4140085D27F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E04900132DA6C4140085D27F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E04900182DA6C4140085D27F /* NeoSoftTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeoSoftTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E049001C2DA6C4140085D27F /* NeoSoftTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoSoftTaskTests.swift; sourceTree = "<group>"; };
+		E04900222DA6C4140085D27F /* NeoSoftTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeoSoftTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E04900262DA6C4140085D27F /* NeoSoftTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoSoftTaskUITests.swift; sourceTree = "<group>"; };
+		E04900282DA6C4140085D27F /* NeoSoftTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoSoftTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E049003C2DA6C9370085D27F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		E049003E2DA6C94C0085D27F /* SuperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperViewController.swift; sourceTree = "<group>"; };
+		E04900412DA6CA270085D27F /* DashBoardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardVC.swift; sourceTree = "<group>"; };
+		E04900472DA6CAA70085D27F /* TabelCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabelCells.swift; sourceTree = "<group>"; };
+		E04900492DA6CB510085D27F /* CollCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollCells.swift; sourceTree = "<group>"; };
+		E049004B2DA6CE280085D27F /* Uiview+controls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Uiview+controls.swift"; sourceTree = "<group>"; };
+		E049004E2DA6CEA10085D27F /* DashBoardItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardItemModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E04900152DA6C4140085D27F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2FEE5AFDCAF7001A68C1A9 /* Pods_NeoSoftTaskTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E049001F2DA6C4140085D27F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6FCBC099CCB9932ED2CACC /* Pods_NeoSoftTask_NeoSoftTaskUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E049FFFF2DA6C4060085D27F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F244B8A3433A95A832A2DCF /* Pods_NeoSoftTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		629739075D8B86B90E8B05D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81C11A535862E3F75307A215 /* Pods-NeoSoftTask.debug.xcconfig */,
+				B242CA16591F660F279E0C28 /* Pods-NeoSoftTask.release.xcconfig */,
+				1C25E94F352BBB2714202BB9 /* Pods-NeoSoftTask-NeoSoftTaskUITests.debug.xcconfig */,
+				1889408E54AB2B294B3FB422 /* Pods-NeoSoftTask-NeoSoftTaskUITests.release.xcconfig */,
+				B48C10CF3FAAC02FF80C8A6F /* Pods-NeoSoftTaskTests.debug.xcconfig */,
+				3BAEA2AE94EE85A916823595 /* Pods-NeoSoftTaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9ADE21B9B9906E535A5D1698 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				881A2CBB2C093FC8B3359EE7 /* Pods_NeoSoftTask.framework */,
+				68B26C3517A26FE580169F55 /* Pods_NeoSoftTask_NeoSoftTaskUITests.framework */,
+				5A946F18E2FB893141D0DF5F /* Pods_NeoSoftTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E04900032DA6C4060085D27F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E04900022DA6C4060085D27F /* NeoSoftTask.app */,
+				E04900182DA6C4140085D27F /* NeoSoftTaskTests.xctest */,
+				E04900222DA6C4140085D27F /* NeoSoftTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E04900042DA6C4060085D27F /* NeoSoftTask */ = {
+			isa = PBXGroup;
+			children = (
+				E04900052DA6C4060085D27F /* AppDelegate.swift */,
+				E04900072DA6C4060085D27F /* SceneDelegate.swift */,
+				E049003B2DA6C90A0085D27F /* MVVM */,
+				E04900092DA6C4060085D27F /* ViewController.swift */,
+				E049000B2DA6C4060085D27F /* Main.storyboard */,
+				E04900352DA6C8FF0085D27F /* SupportFiles */,
+				E049000E2DA6C4140085D27F /* Assets.xcassets */,
+				E04900102DA6C4140085D27F /* LaunchScreen.storyboard */,
+				E04900132DA6C4140085D27F /* Info.plist */,
+			);
+			path = NeoSoftTask;
+			sourceTree = "<group>";
+		};
+		E049001B2DA6C4140085D27F /* NeoSoftTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				E049001C2DA6C4140085D27F /* NeoSoftTaskTests.swift */,
+			);
+			path = NeoSoftTaskTests;
+			sourceTree = "<group>";
+		};
+		E04900252DA6C4140085D27F /* NeoSoftTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E04900262DA6C4140085D27F /* NeoSoftTaskUITests.swift */,
+				E04900282DA6C4140085D27F /* NeoSoftTaskUITestsLaunchTests.swift */,
+			);
+			path = NeoSoftTaskUITests;
+			sourceTree = "<group>";
+		};
+		E04900352DA6C8FF0085D27F /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E049004D2DA6CE520085D27F /* Extensions */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		E04900362DA6C90A0085D27F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E049004E2DA6CEA10085D27F /* DashBoardItemModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E04900372DA6C90A0085D27F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E04900382DA6C90A0085D27F /* SuperControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E049003C2DA6C9370085D27F /* BaseViewController.swift */,
+				E049003E2DA6C94C0085D27F /* SuperViewController.swift */,
+			);
+			path = SuperControllers;
+			sourceTree = "<group>";
+		};
+		E04900392DA6C90A0085D27F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E04900402DA6CA160085D27F /* DashBoardVC */,
+				E04900382DA6C90A0085D27F /* SuperControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E049003A2DA6C90A0085D27F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E04900462DA6CA900085D27F /* CustomViews */,
+				E04900392DA6C90A0085D27F /* Controllers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E049003B2DA6C90A0085D27F /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				E04900362DA6C90A0085D27F /* Model */,
+				E04900372DA6C90A0085D27F /* ViewModels */,
+				E049003A2DA6C90A0085D27F /* Views */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		E04900402DA6CA160085D27F /* DashBoardVC */ = {
+			isa = PBXGroup;
+			children = (
+				E04900412DA6CA270085D27F /* DashBoardVC.swift */,
+				E036D46A2DA6F26900D4F5FF /* BottomSheetVC.swift */,
+			);
+			path = DashBoardVC;
+			sourceTree = "<group>";
+		};
+		E04900432DA6CA900085D27F /* CollCells */ = {
+			isa = PBXGroup;
+			children = (
+				E04900492DA6CB510085D27F /* CollCells.swift */,
+			);
+			path = CollCells;
+			sourceTree = "<group>";
+		};
+		E04900442DA6CA900085D27F /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				E04900472DA6CAA70085D27F /* TabelCells.swift */,
+			);
+			path = TableCells;
+			sourceTree = "<group>";
+		};
+		E04900452DA6CA900085D27F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E04900432DA6CA900085D27F /* CollCells */,
+				E04900442DA6CA900085D27F /* TableCells */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E04900462DA6CA900085D27F /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				E04900452DA6CA900085D27F /* Cells */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		E049004D2DA6CE520085D27F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E049004B2DA6CE280085D27F /* Uiview+controls.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E049FFF92DA6C4060085D27F = {
+			isa = PBXGroup;
+			children = (
+				E04900042DA6C4060085D27F /* NeoSoftTask */,
+				E049001B2DA6C4140085D27F /* NeoSoftTaskTests */,
+				E04900252DA6C4140085D27F /* NeoSoftTaskUITests */,
+				E04900032DA6C4060085D27F /* Products */,
+				629739075D8B86B90E8B05D2 /* Pods */,
+				9ADE21B9B9906E535A5D1698 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E04900012DA6C4060085D27F /* NeoSoftTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E049002C2DA6C4140085D27F /* Build configuration list for PBXNativeTarget "NeoSoftTask" */;
+			buildPhases = (
+				7316C5D609DFE27DC72B1F87 /* [CP] Check Pods Manifest.lock */,
+				E049FFFE2DA6C4060085D27F /* Sources */,
+				E049FFFF2DA6C4060085D27F /* Frameworks */,
+				E04900002DA6C4060085D27F /* Resources */,
+				D2F7D01949EEEAD3D31E8726 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeoSoftTask;
+			productName = NeoSoftTask;
+			productReference = E04900022DA6C4060085D27F /* NeoSoftTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E04900172DA6C4140085D27F /* NeoSoftTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E049002F2DA6C4140085D27F /* Build configuration list for PBXNativeTarget "NeoSoftTaskTests" */;
+			buildPhases = (
+				D423541407608A9E61F3A5BC /* [CP] Check Pods Manifest.lock */,
+				E04900142DA6C4140085D27F /* Sources */,
+				E04900152DA6C4140085D27F /* Frameworks */,
+				E04900162DA6C4140085D27F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E049001A2DA6C4140085D27F /* PBXTargetDependency */,
+			);
+			name = NeoSoftTaskTests;
+			productName = NeoSoftTaskTests;
+			productReference = E04900182DA6C4140085D27F /* NeoSoftTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E04900212DA6C4140085D27F /* NeoSoftTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E04900322DA6C4140085D27F /* Build configuration list for PBXNativeTarget "NeoSoftTaskUITests" */;
+			buildPhases = (
+				D430087DFEF2B4D58F7BAFAC /* [CP] Check Pods Manifest.lock */,
+				E049001E2DA6C4140085D27F /* Sources */,
+				E049001F2DA6C4140085D27F /* Frameworks */,
+				E04900202DA6C4140085D27F /* Resources */,
+				4BB44669470B802A4F6C3DF3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E04900242DA6C4140085D27F /* PBXTargetDependency */,
+			);
+			name = NeoSoftTaskUITests;
+			productName = NeoSoftTaskUITests;
+			productReference = E04900222DA6C4140085D27F /* NeoSoftTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E049FFFA2DA6C4060085D27F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					E04900012DA6C4060085D27F = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					E04900172DA6C4140085D27F = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = E04900012DA6C4060085D27F;
+					};
+					E04900212DA6C4140085D27F = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = E04900012DA6C4060085D27F;
+					};
+				};
+			};
+			buildConfigurationList = E049FFFD2DA6C4060085D27F /* Build configuration list for PBXProject "NeoSoftTask" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E049FFF92DA6C4060085D27F;
+			productRefGroup = E04900032DA6C4060085D27F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E04900012DA6C4060085D27F /* NeoSoftTask */,
+				E04900172DA6C4140085D27F /* NeoSoftTaskTests */,
+				E04900212DA6C4140085D27F /* NeoSoftTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E04900002DA6C4060085D27F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E049000F2DA6C4140085D27F /* Assets.xcassets in Resources */,
+				E04900122DA6C4140085D27F /* Base in Resources */,
+				E049000D2DA6C4060085D27F /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E04900162DA6C4140085D27F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E04900202DA6C4140085D27F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BB44669470B802A4F6C3DF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeoSoftTask-NeoSoftTaskUITests/Pods-NeoSoftTask-NeoSoftTaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeoSoftTask-NeoSoftTaskUITests/Pods-NeoSoftTask-NeoSoftTaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NeoSoftTask-NeoSoftTaskUITests/Pods-NeoSoftTask-NeoSoftTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7316C5D609DFE27DC72B1F87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeoSoftTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2F7D01949EEEAD3D31E8726 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeoSoftTask/Pods-NeoSoftTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeoSoftTask/Pods-NeoSoftTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NeoSoftTask/Pods-NeoSoftTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D423541407608A9E61F3A5BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeoSoftTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D430087DFEF2B4D58F7BAFAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeoSoftTask-NeoSoftTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E04900142DA6C4140085D27F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E049001D2DA6C4140085D27F /* NeoSoftTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E049001E2DA6C4140085D27F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E04900292DA6C4140085D27F /* NeoSoftTaskUITestsLaunchTests.swift in Sources */,
+				E04900272DA6C4140085D27F /* NeoSoftTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E049FFFE2DA6C4060085D27F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E049000A2DA6C4060085D27F /* ViewController.swift in Sources */,
+				E04900482DA6CAA70085D27F /* TabelCells.swift in Sources */,
+				E049003D2DA6C9370085D27F /* BaseViewController.swift in Sources */,
+				E049003F2DA6C94C0085D27F /* SuperViewController.swift in Sources */,
+				E04900062DA6C4060085D27F /* AppDelegate.swift in Sources */,
+				E049004F2DA6CEA10085D27F /* DashBoardItemModel.swift in Sources */,
+				E04900082DA6C4060085D27F /* SceneDelegate.swift in Sources */,
+				E04900422DA6CA270085D27F /* DashBoardVC.swift in Sources */,
+				E036D46B2DA6F26900D4F5FF /* BottomSheetVC.swift in Sources */,
+				E049004C2DA6CE280085D27F /* Uiview+controls.swift in Sources */,
+				E049004A2DA6CB510085D27F /* CollCells.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E049001A2DA6C4140085D27F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E04900012DA6C4060085D27F /* NeoSoftTask */;
+			targetProxy = E04900192DA6C4140085D27F /* PBXContainerItemProxy */;
+		};
+		E04900242DA6C4140085D27F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E04900012DA6C4060085D27F /* NeoSoftTask */;
+			targetProxy = E04900232DA6C4140085D27F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E049000B2DA6C4060085D27F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E049000C2DA6C4060085D27F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E04900102DA6C4140085D27F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E04900112DA6C4140085D27F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E049002A2DA6C4140085D27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E049002B2DA6C4140085D27F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E049002D2DA6C4140085D27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81C11A535862E3F75307A215 /* Pods-NeoSoftTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NeoSoftTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Neo.task.com.NeoSoftTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E049002E2DA6C4140085D27F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B242CA16591F660F279E0C28 /* Pods-NeoSoftTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NeoSoftTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Neo.task.com.NeoSoftTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E04900302DA6C4140085D27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B48C10CF3FAAC02FF80C8A6F /* Pods-NeoSoftTaskTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Neo.task.com.NeoSoftTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeoSoftTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NeoSoftTask";
+			};
+			name = Debug;
+		};
+		E04900312DA6C4140085D27F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BAEA2AE94EE85A916823595 /* Pods-NeoSoftTaskTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Neo.task.com.NeoSoftTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeoSoftTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NeoSoftTask";
+			};
+			name = Release;
+		};
+		E04900332DA6C4140085D27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C25E94F352BBB2714202BB9 /* Pods-NeoSoftTask-NeoSoftTaskUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Neo.task.com.NeoSoftTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeoSoftTask;
+			};
+			name = Debug;
+		};
+		E04900342DA6C4140085D27F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1889408E54AB2B294B3FB422 /* Pods-NeoSoftTask-NeoSoftTaskUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Neo.task.com.NeoSoftTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeoSoftTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E049002C2DA6C4140085D27F /* Build configuration list for PBXNativeTarget "NeoSoftTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E049002D2DA6C4140085D27F /* Debug */,
+				E049002E2DA6C4140085D27F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E049002F2DA6C4140085D27F /* Build configuration list for PBXNativeTarget "NeoSoftTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E04900302DA6C4140085D27F /* Debug */,
+				E04900312DA6C4140085D27F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E04900322DA6C4140085D27F /* Build configuration list for PBXNativeTarget "NeoSoftTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E04900332DA6C4140085D27F /* Debug */,
+				E04900342DA6C4140085D27F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E049FFFD2DA6C4060085D27F /* Build configuration list for PBXProject "NeoSoftTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E049002A2DA6C4140085D27F /* Debug */,
+				E049002B2DA6C4140085D27F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E049FFFA2DA6C4060085D27F /* Project object */;
+}
